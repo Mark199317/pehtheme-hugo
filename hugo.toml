@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'metodika21cm.netlify.app'
+languageCode = 'ru'
+title = '21cm Metodika'
 
 [[menus.main]]
 name = 'Home'
