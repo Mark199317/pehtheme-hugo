@@ -69,9 +69,12 @@
       {{- .Content -}}
 
       <!-- Tags list -->
-
-
+      {{ if not .Params.disable_banner }}
+      <center>
+        <a href="/posts/kyps/" class="custom-link" title="Подробнее-купить"> КУПИТЬ </a>
+      </center>
     </div>
+      {{- end }}
 
     <footer id="content-footer" class="not-prose">
 
